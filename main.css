@@ -1,0 +1,120 @@
+body {
+	background: linear-gradient(35deg, orange 40%, brown 40%);
+  overflow-wrap: break-word;
+}
+
+.no-decoration {
+	text-decoration: none;
+}
+
+.main-nav {
+
+}
+
+.contain {
+
+}
+
+@import "compass/css3";
+
+    #webpage {
+    box-sizing: content-box;
+    display: flex;
+    border: 2px solid black;
+    flex-shrink: 1;
+    justify-content: stretch;
+    }
+
+
+.nav-items {
+  padding: 0;
+  margin: 0;
+  list-style: none; 
+  
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  
+  -webkit-flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+div {
+position:relative;
+}
+#nav {
+position:absolute;
+left:50%;top:0;
+margin-left:-375px; /* negative margin equal to half the width */
+width:750px;
+list-style:none;
+}
+#nav li {
+float:left;
+}
+#nav a {
+display:block;
+text-align:center;
+width:150px; /* fixed width */
+text-decoration:none; 
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,nav,section,summary {
+    display: block;
+}
+
+.h101 {
+  text-align: center;
+}
+
+#interested {
+  display: flex;
+  flex-flow: row wrap;
+  text-align: center;
+}
+
+.overflow-wrap {
+  overflow-wrap: break-word;
+}
+ 
+.basics {
+  grid-column: 2 / 4;
+}
+
+ul > li {
+    box-sizing: content-box;
+    display: flex;
+    border: 2px solid darkblue;
+    flex-shrink: 1;
+    justify-content: stretch;
+    background-blend-mode: lighten;
+    background-color: black;
+    opacity: 0.8;
+}
+
+ul > li:hover {
+    box-sizing: content-box;
+    display: flex;
+    border: 2px solid blue;
+    flex-shrink: 1;
+    justify-content: stretch;
+    background-blend-mode: lighten;
+    background-color: black;
+    opacity: 1;
+}
+
+.border_black {
+  box-sizing: content-box;
+  display: flex;
+  border: 2px solid black;
+  flex-shrink: 1;
+  justify-content: stretch;
+  background-blend-mode: darken;
+}
+
+
+
+
